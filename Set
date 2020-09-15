@@ -1,0 +1,9 @@
+print('Введите пять элементов множества A слитно.'); 
+Mn1 = set(input()); 
+print('Введите пять элементов множества B слитно.'); 
+Mn2 = set (input()); 
+print('Объединение этих множеств:',Mn1.union(Mn2)); 
+print('Пересечение этих множеств:',Mn1.intersection(Mn2)); 
+print('Разность этих множеств(A\B):',Mn1.difference(Mn2)); 
+print('Разность этих множеств(B\A):',Mn2.difference(Mn1)); 
+print('Симметрическая разность этих множеств(A-B):',Mn1.symmetric_difference(Mn2));
